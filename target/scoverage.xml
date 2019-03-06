@@ -1,0 +1,43 @@
+<scoverage 
+statement-count="3" statements-invoked="2" statement-rate="66.67" branch-rate="100.00" version="1.0" timestamp="1551901566611">
+    <packages>
+        <package name="org.cloudera" statement-count="3" statements-invoked="2" statement-rate="66.67">
+            <classes>
+                <class 
+                name="org.cloudera.HelloWorld" filename="org/cloudera/HelloWorld.scala" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="org.cloudera/HelloWorld/hello" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="org.cloudera" class="HelloWorld" class-type="Object" full-class-name="org.cloudera.HelloWorld" source="/Users/harumughan/IdeaProjects/testScoverage/src/main/scala/org/cloudera/HelloWorld.scala" method="hello" start="64" end="64" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="org.cloudera.App" filename="org/cloudera/App.scala" statement-count="2" statements-invoked="1" statement-rate="50.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="org.cloudera/App/hello" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="org.cloudera" class="App" class-type="Object" full-class-name="org.cloudera.App" source="/Users/harumughan/IdeaProjects/testScoverage/src/main/scala/org/cloudera/App.scala" method="hello" start="57" end="57" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="org.cloudera/App/hello2" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="org.cloudera" class="App" class-type="Object" full-class-name="org.cloudera.App" source="/Users/harumughan/IdeaProjects/testScoverage/src/main/scala/org/cloudera/App.scala" method="hello2" start="117" end="117" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
